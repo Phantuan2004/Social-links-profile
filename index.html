@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 990px;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+            format("woff2"),
+          url("./assets/fonts/static/Inter-SemiBold.ttf") format("woff");
+        font-weight: normal;
+        font: normal;
+      }
+
+      .card {
+        background-color: rgb(37, 37, 37);
+        border-radius: 10px;
+        width: 400px;
+        height: 610px;
+        margin-top: -59px;
+      }
+
+      .card img {
+        border-radius: 50%;
+        width: 80px;
+        height: auto;
+        display: flex;
+        margin: 48px auto;
+        cursor: pointer;
+      }
+
+      .card h1 {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        margin-top: -20px;
+        font-family: "Inter", sans-serif;
+      }
+
+      .card b {
+        display: flex;
+        justify-content: center;
+        color: rgb(187, 255, 0);
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        margin-top: -5px;
+      }
+
+      .card p {
+        color: white;
+        text-align: center;
+        margin-top: 28px;
+        font-family: "Inter", sans-serif;
+        font-size: 13px;
+        margin-bottom: 26px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        background-color: rgb(55, 55, 55);
+        height: 43px;
+        border-radius: 7px;
+        width: 294px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 18px auto;
+      }
+
+      a:hover {
+        background-color: rgb(187, 255, 0);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="avatar" />
+      <h1>Jessica Randall</h1>
+      <b>London, United Kingdom</b>
+      <p>"Front-end developer and avid reader."</p>
+      <div class="control">
+        <a href="#">GitHub</a>
+        <a href="#">Frontend mentor</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </body>
+</html>
